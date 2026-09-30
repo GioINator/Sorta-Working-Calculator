@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Geometric Square and Circle Solver</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><p>Geometry Calculator, By Giovanni Majano 10th Grade<br>NOTICE: Please note the square solver does not work, Ive tried multiple times to fix it but I could not, please only use the circle solver</p></h1>
+    <div class="calculator"> 
+        <div class="form-group">
+          <label for="square-side">the side of the square:</label>
+          <input type="number" id="square-side" placeholder="the-side-of-the-square">
+          <button onclick="calculateSquare()">calculate</button>
+          <div calculateSquare"></div>
+        </div>
+        <script src="script.js"></script>
+        
+        <div class="form-group">
+          <label for="circle-radius">radius:</label>
+          <input type="number" id="circle-radius" placeholder="Radius">
+          <button onclick="calculateCircle()">calculate</button>
+          <div class="result" id="circle-result"></div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
